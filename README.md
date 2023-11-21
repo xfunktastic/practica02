@@ -44,7 +44,7 @@ Este proyecto consiste en la creación de una API basandome en la Practica01 uti
     
 7. Configura la base de datos en el archivo con tus datos `.env`.
     
-8. Ejecuta las migraciones y los seeders: `php artisan migrate --seed`.
+8. Ejecuta las migraciones y los seeders: `php artisan db:seed --class=DefaultUserSeeder`, `php artisan db:seed --class=DefaultFrameworksSeeder`,  `php artisan db:seed --class=DefaultHobbiesSeeder `,  `php artisan migrate`
     
 9. Inicia el servidor: `php artisan serve`.
 
